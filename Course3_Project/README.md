@@ -1,7 +1,5 @@
-README.md file
-Written by: Sergio Gregorio
-Last update: January 31, 2016
-=============================
+README.md file by Sergio Gregorio, Last update: January 31, 2016
+================================================================
 
 This document enumerates the steps you need to take to replicate my analysis. 
 
