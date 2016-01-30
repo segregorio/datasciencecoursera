@@ -40,7 +40,7 @@ Please consult the UCI website for a complete list and description of the files 
 
 Features were extracted from X_train.txt and X_test.txt based on the criteria that they contained the phrases "mean()" or "std()".
 
-[Click here to see a complete list of variables used in my data sets.](variables_description.html)
+[Click here to see a complete list of variables used in my data sets.](http://www.elearnings.xyz/variables_description.html)
 
 Source: [UCI website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
