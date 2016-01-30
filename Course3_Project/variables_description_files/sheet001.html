@@ -1,0 +1,592 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 12">
+<link id=Main-File rel=Main-File href="../variables_description.html">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../variables_description.html");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link=blue vlink=purple>
+
+<table border=0 cellpadding=0 cellspacing=0 width=1284 style='border-collapse:
+ collapse;table-layout:fixed;width:964pt'>
+ <col width=26 style='mso-width-source:userset;mso-width-alt:938;width:20pt'>
+ <col width=197 style='mso-width-source:userset;mso-width-alt:6997;width:148pt'>
+ <col width=341 style='mso-width-source:userset;mso-width-alt:12117;width:256pt'>
+ <col width=720 style='mso-width-source:userset;mso-width-alt:25600;width:540pt'>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl65 width=26 style='height:14.4pt;width:20pt'>Id</td>
+  <td class=xl65 width=197 style='border-left:none;width:148pt'>Feature Name
+  (original)</td>
+  <td class=xl65 width=341 style='border-left:none;width:256pt'>Feature Name
+  (tidy)</td>
+  <td class=xl65 width=720 style='border-left:none;width:540pt'>Description</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>1</td>
+  <td class=xl66 style='border-top:none;border-left:none'>y_label</td>
+  <td class=xl66 style='border-top:none;border-left:none'>ActivityLabel</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Numeric label that
+  represents a particular activity such as walking, standing, etc.</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>2</td>
+  <td class=xl66 style='border-top:none;border-left:none'>N/A</td>
+  <td class=xl66 style='border-top:none;border-left:none'>DataSet</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Character/string
+  label that identifies which data set an observation belongs to.</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>3</td>
+  <td class=xl66 style='border-top:none;border-left:none'>subject</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Subject</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Numeric code for
+  human subject.</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>4</td>
+  <td class=xl66 style='border-top:none;border-left:none'>activity_name</td>
+  <td class=xl66 style='border-top:none;border-left:none'>ActivityName</td>
+  <td class=xl66 style='border-top:none;border-left:none'>A human readable
+  equivalent for ActivityLabel (see above)</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>5</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAcc-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration signals measured by accelerometer on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>6</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAcc-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration signals measured by accelerometer on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>7</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAcc-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration signals measured by accelerometer on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>8</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAcc-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signals measured by accelerometer
+  on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>9</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAcc-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signals measured by accelerometer
+  on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>10</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAcc-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signals measured by accelerometer
+  on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>11</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAcc-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain gravity acceleration signals by accelerometer on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>12</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAcc-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain gravity acceleration signals by accelerometer on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>13</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAcc-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain gravity acceleration signals by accelerometer on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>14</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAcc-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain gravity acceleration signals by accelerometer on axis
+  X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>15</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAcc-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain gravity acceleration signals by accelerometer on axis
+  Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>16</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAcc-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain gravity acceleration signals by accelerometer on axis
+  Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>17</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerk-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signals measured by accelerometer on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>18</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerk-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signals measured by accelerometer on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>19</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerk-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signals measured by accelerometer on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>20</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerk-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signals measured by
+  accelerometer on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>21</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerk-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signals measured by
+  accelerometer on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>22</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerk-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkStanDevzAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signals measured by
+  accelerometer on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>23</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyro-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body signals measured by gyroscope on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>24</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyro-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body signals measured by gyroscope on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>25</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyro-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body signals measured by gyroscope on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>26</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyro-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signals by gyroscope on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>27</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyro-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signals by gyroscope on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>28</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyro-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signals by gyroscope on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>29</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerk-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signals by gyroscope on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>30</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerk-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signals by gyroscope on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>31</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerk-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signals by gyroscope on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>32</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerk-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signals by gyroscope on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>33</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerk-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signals by gyroscope on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>34</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerk-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signals by gyroscope on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>35</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration signal magnitudes measured by accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>36</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signal magnitudes measured by
+  accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>37</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAccMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain gravity acceleration signal magnitudes by accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>38</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tGravityAccMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalGravityAccelerationMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain gravity acceleration signal magnitudes by
+  accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>39</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerkMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signal magnitudes measured by accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>40</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyAccJerkMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyAccelerationJerkMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signal magnitudes measured by
+  accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>41</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration signal magnitudes by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>42</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration signal magnitudes by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>43</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerkMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of time
+  domain body acceleration Jerk signal magnitudes by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>44</td>
+  <td class=xl66 style='border-top:none;border-left:none'>tBodyGyroJerkMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>TotalBodyGyroscopeJerkMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation oftime domain body acceleration Jerk signal magnitudes by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>45</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAcc-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration signals measured by accelerometer on axis
+  X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>46</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAcc-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration signals measured by accelerometer on axis
+  Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>47</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAcc-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration signals measured by accelerometer on axis
+  Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>48</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAcc-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration signals measured by
+  accelerometer on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>49</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAcc-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration signals measured by
+  accelerometer on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>50</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAcc-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration signals measured by
+  accelerometer on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>51</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccJerk-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationJerkMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration Jerk signals measured by accelerometer on
+  axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>52</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccJerk-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationJerkMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration Jerk signals measured by accelerometer on
+  axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>53</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccJerk-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationJerkMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration Jerk signals measured by accelerometer on
+  axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>54</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccJerk-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationJerkStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration Jerk signals measured by
+  accelerometer on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>55</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccJerk-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationJerkStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration Jerk signals measured by
+  accelerometer on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>56</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccJerk-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationJerkStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration Jerk signals measured by
+  accelerometer on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>57</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyGyro-mean()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyGyroscopeMeanXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body signals measured by gyroscope on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>58</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyGyro-mean()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyGyroscopeMeanYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body signals measured by gyroscope on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>59</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyGyro-mean()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyGyroscopeMeanZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body signals measured by gyroscope on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>60</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyGyro-std()-X</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyGyroscopeStanDevXAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body signals measured by gyroscope on axis X</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>61</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyGyro-std()-Y</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyGyroscopeStanDevYAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body signals measured by gyroscope on axis Y</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>62</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyGyro-std()-Z</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyGyroscopeStanDevZAxis</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body signals measured by gyroscope on axis Z</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration signal magnitudes measured by
+  accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>64</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyAccMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyAccelerationMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration signal magnitudes measured by
+  accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>65</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyBodyAccJerkMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyBodyAccelerationJerkMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body acceleration Jerk signal magnitudes measured by
+  accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>66</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyBodyAccJerkMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyBodyAccelerationJerkMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body acceleration Jerk signal magnitudes
+  measured by accelerometer</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>67</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyBodyGyroMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyBodyGyroscopeMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body signal magnitudes measured by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>68</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyBodyGyroMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyBodyGyroscopeMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body signal magnitudes measured by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>69</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyBodyGyroJerkMag-mean()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyBodyGyroscopeJerkMagnitudeMean</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged mean of
+  frequency domain body Jerk signal magnitudes measured by gyroscope</td>
+ </tr>
+ <tr height=19 style='height:14.4pt'>
+  <td height=19 class=xl66 align=right style='height:14.4pt;border-top:none'>70</td>
+  <td class=xl66 style='border-top:none;border-left:none'>fBodyBodyGyroJerkMag-std()</td>
+  <td class=xl66 style='border-top:none;border-left:none'>FrequencyBodyBodyGyroscopeJerkMagnitudeStanDev</td>
+  <td class=xl66 style='border-top:none;border-left:none'>Averaged standard
+  deviation offrequency domain body Jerk signal magnitudes measured by
+  gyroscope</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=26 style='width:20pt'></td>
+  <td width=197 style='width:148pt'></td>
+  <td width=341 style='width:256pt'></td>
+  <td width=720 style='width:540pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
