@@ -1,4 +1,4 @@
-README.md file by Sergio Gregorio, Last update: January 31, 2016
+README.md file by Sergio Gregorio (Jan 31, 2016)
 ================================================================
 
 This document enumerates the steps you need to take to replicate my analysis. 
@@ -17,8 +17,8 @@ This document enumerates the steps you need to take to replicate my analysis.
 
 3. If you have not done this yet, go to this Github repo (mine - Serge) and download 
    a copy of the run_analyis.R script:
-
-   https://github.com/segregorio/datasciencecoursera
+   
+   https://github.com/segregorio/datasciencecoursera/tree/master/Course3_Project
 
    Copy the R script into ZIP_ROOT folder.  Optionally, you may also download
    other related files from the repo such as codebook.txt and the output data 
