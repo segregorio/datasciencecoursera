@@ -39,13 +39,13 @@ Please consult the UCI website for a complete list and description of the files 
 
 Features were extracted from X_train.txt and X_test.txt based on the criteria that they contained the phrases "mean()" or "std()".
 
-[Click here to see a complete list of variables used in my data sets.](http://www.elearnings.xyz/variables_description.html)
+[Click HERE to see a DESCRIPTION OF ALL VARIABLES used in my data sets.](http://www.elearnings.xyz/variables_description.html)
 
 Source: [UCI website](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 In general, the human readable column names were constructed using rules such as:
 
-1. Replace t (when it's the first letter) with Total.
+1. Replace t (when it's the first letter) with Time.
 2. Replace f (when it's the first letter) iwth Frequency.
 3. Replace Acc with Acceleration.
 4. Replace Gyro with Gyroscope.
